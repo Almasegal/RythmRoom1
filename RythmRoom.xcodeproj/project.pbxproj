@@ -19,6 +19,7 @@
 		F2D31B9128AC19790027B5BD /* RythmRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B9028AC19790027B5BD /* RythmRoomUITests.swift */; };
 		F2D31B9328AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B9228AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift */; };
 		F2D9720328AE8ABE008E10B9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */; };
+		F2D9720528AEBEC1008E10B9 /* IndieMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9720428AEBEC1008E10B9 /* IndieMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F2D31B9028AC19790027B5BD /* RythmRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RythmRoomUITests.swift; sourceTree = "<group>"; };
 		F2D31B9228AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RythmRoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		F2D9720428AEBEC1008E10B9 /* IndieMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndieMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F2D31B7128AC19780027B5BD /* SceneDelegate.swift */,
 				F2D31B7328AC19780027B5BD /* ViewController.swift */,
 				F2D31B7528AC19780027B5BD /* Main.storyboard */,
+				F2D9720428AEBEC1008E10B9 /* IndieMusicViewController.swift */,
 				F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */,
 				F2D31B7828AC19790027B5BD /* Assets.xcassets */,
 				F2D31B7A28AC19790027B5BD /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D9720528AEBEC1008E10B9 /* IndieMusicViewController.swift in Sources */,
 				F2D31B7428AC19780027B5BD /* ViewController.swift in Sources */,
 				F2D31B7028AC19780027B5BD /* AppDelegate.swift in Sources */,
 				F2D31B7228AC19780027B5BD /* SceneDelegate.swift in Sources */,

@@ -330,7 +330,7 @@
         <!--IndieMusic-->
         <scene sceneID="LY3-WI-zi5">
             <objects>
-                <viewController title="IndieMusic" id="M1H-7w-U3A" sceneMemberID="viewController">
+                <viewController title="IndieMusic" id="M1H-7w-U3A" customClass="IndieMusicViewController" customModule="RythmRoom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q9j-80-cTE">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -413,7 +413,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lVh-Z4-6Bt"/>
+        <segue reference="5Gi-K6-gfY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="flip-camera-icon-png-24" width="196" height="131"/>
