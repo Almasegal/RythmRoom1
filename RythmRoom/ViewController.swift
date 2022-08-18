@@ -7,14 +7,24 @@
 
 import UIKit
 
-class ViewController:UIViewController{
+class ViewController: UIViewController {
 
-       
-        override func viewDidLoad() {
-            super.viewDidLoad()
-        }
+    @IBOutlet weak var selectFruitBtn: UIButton!
+    @IBOutlet var fruitBtnCollection: [UIButton]!
+
+    override func viewDidLoad(){
+
+super.viewDidLoad()
+    
+        // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func selectGenrePressed( sender: UIButton) {
+    }
+    @IBAction func genrePressed( sender: UIButton) {
+    }
 
 
     
-}
 
+}
