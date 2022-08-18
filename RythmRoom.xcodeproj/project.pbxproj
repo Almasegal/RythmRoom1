@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24D34D528ADEDBC00E5D5BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F24D34D428ADEDBC00E5D5BB /* GoogleService-Info.plist */; };
+		F24D34D828ADEE7800E5D5BB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F24D34D728ADEE7800E5D5BB /* FirebaseAuth */; };
 		F2D31B7028AC19780027B5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B6F28AC19780027B5BD /* AppDelegate.swift */; };
 		F2D31B7228AC19780027B5BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B7128AC19780027B5BD /* SceneDelegate.swift */; };
 		F2D31B7428AC19780027B5BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B7328AC19780027B5BD /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		F2D31B8728AC19790027B5BD /* RythmRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B8628AC19790027B5BD /* RythmRoomTests.swift */; };
 		F2D31B9128AC19790027B5BD /* RythmRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B9028AC19790027B5BD /* RythmRoomUITests.swift */; };
 		F2D31B9328AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D31B9228AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift */; };
+		F2D9720328AE8ABE008E10B9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F24D34D428ADEDBC00E5D5BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F2D31B6C28AC19780027B5BD /* RythmRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RythmRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D31B6F28AC19780027B5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D31B7128AC19780027B5BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 		F2D31B8C28AC19790027B5BD /* RythmRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RythmRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D31B9028AC19790027B5BD /* RythmRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RythmRoomUITests.swift; sourceTree = "<group>"; };
 		F2D31B9228AC19790027B5BD /* RythmRoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RythmRoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24D34D828ADEE7800E5D5BB /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +109,11 @@
 				F2D31B7128AC19780027B5BD /* SceneDelegate.swift */,
 				F2D31B7328AC19780027B5BD /* ViewController.swift */,
 				F2D31B7528AC19780027B5BD /* Main.storyboard */,
+				F2D9720228AE8ABE008E10B9 /* QuizViewController.swift */,
 				F2D31B7828AC19790027B5BD /* Assets.xcassets */,
 				F2D31B7A28AC19790027B5BD /* LaunchScreen.storyboard */,
 				F2D31B7D28AC19790027B5BD /* Info.plist */,
+				F24D34D428ADEDBC00E5D5BB /* GoogleService-Info.plist */,
 			);
 			path = RythmRoom;
 			sourceTree = "<group>";
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = RythmRoom;
+			packageProductDependencies = (
+				F24D34D728ADEE7800E5D5BB /* FirebaseAuth */,
+			);
 			productName = RythmRoom;
 			productReference = F2D31B6C28AC19780027B5BD /* RythmRoom.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = F2D31B6328AC19770027B5BD;
+			packageReferences = (
+				F24D34D628ADEE7800E5D5BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F2D31B6D28AC19780027B5BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +248,7 @@
 				F2D31B7C28AC19790027B5BD /* LaunchScreen.storyboard in Resources */,
 				F2D31B7928AC19790027B5BD /* Assets.xcassets in Resources */,
 				F2D31B7728AC19780027B5BD /* Main.storyboard in Resources */,
+				F24D34D528ADEDBC00E5D5BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 				F2D31B7428AC19780027B5BD /* ViewController.swift in Sources */,
 				F2D31B7028AC19780027B5BD /* AppDelegate.swift in Sources */,
 				F2D31B7228AC19780027B5BD /* SceneDelegate.swift in Sources */,
+				F2D9720328AE8ABE008E10B9 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +618,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F24D34D628ADEE7800E5D5BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F24D34D728ADEE7800E5D5BB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F24D34D628ADEE7800E5D5BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2D31B6428AC19770027B5BD /* Project object */;
 }
