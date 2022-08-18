@@ -81,25 +81,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="upm-ac-QA0">
-                                <rect key="frame" x="16" y="222.00000000000003" width="350" height="457.66666666666669"/>
+                                <rect key="frame" x="16" y="222" width="350" height="333"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAP-3x-j7c">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="60"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Select genre:">
-                                                    <attributes>
-                                                        <font key="NSFont" size="40" name="GillSans"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </buttonConfiguration>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6n3-dG-hjM">
-                                        <rect key="frame" x="0.0" y="68" width="350" height="48.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="48.666666666666664"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -114,10 +99,11 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="Q9q-y9-C2f"/>
+                                            <segue destination="cc2-Vx-s2d" kind="show" id="5bd-c8-wgU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STp-8b-CnA">
-                                        <rect key="frame" x="0.0" y="124.66666666666667" width="350" height="49.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="56.666666666666671" width="350" height="49.666666666666671"/>
                                         <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -136,7 +122,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRe-0T-iyD">
-                                        <rect key="frame" x="0.0" y="182.33333333333334" width="350" height="48.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="114.33333333333333" width="350" height="48.666666666666671"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -152,10 +138,11 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="G6U-SN-SId"/>
+                                            <segue destination="JXP-rA-lCB" kind="show" id="se7-8w-Mer"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDW-9C-CVI">
-                                        <rect key="frame" x="0.0" y="238.99999999999997" width="350" height="48.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="171" width="350" height="48.666666666666657"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -171,10 +158,11 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="2ii-7h-Wkr"/>
+                                            <segue destination="M1H-7w-U3A" kind="show" id="HvS-AM-s0C"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvu-gE-a4f">
-                                        <rect key="frame" x="0.0" y="295.66666666666669" width="350" height="48.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="227.66666666666666" width="350" height="48.666666666666657"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -190,10 +178,11 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="MGf-2Q-f8m"/>
+                                            <segue destination="ikv-zm-NBP" kind="show" id="Xzc-Fh-jDv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWV-Kv-ipa">
-                                        <rect key="frame" x="0.0" y="352.33333333333331" width="350" height="48.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="284.33333333333331" width="350" height="48.666666666666686"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -209,25 +198,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="1ms-Z6-zqc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKR-Za-uFI">
-                                        <rect key="frame" x="0.0" y="409" width="350" height="48.666666666666686"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Jazz">
-                                                    <attributes>
-                                                        <font key="NSFont" size="30" name="GillSans"/>
-                                                        <font key="NSOriginalFont" size="30" name="GillSans"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="selectGenrePressedWithSender:" destination="DIQ-R3-IMU" eventType="touchUpInside" id="FgQ-Wh-OgV"/>
+                                            <segue destination="esf-gE-fYj" kind="show" id="sFg-lm-wEN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -245,6 +216,22 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAP-3x-j7c">
+                                <rect key="frame" x="20" y="167" width="350" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Select genre:">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v6W-Z6-Qaq"/>
                         <color key="backgroundColor" red="0.42745098039215684" green="0.61568627450980395" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
@@ -259,24 +246,175 @@
             </objects>
             <point key="canvasLocation" x="740" y="64.691943127962077"/>
         </scene>
-        <!--View Controller-->
+        <!--RockMusic-->
+        <scene sceneID="cBv-LB-NSv">
+            <objects>
+                <viewController title="RockMusic" id="JXP-rA-lCB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fRP-JX-t5e">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBN-sd-Cnf">
+                                <rect key="frame" x="16" y="20" width="65" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back"/>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="49g-TO-v5I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VqV-vN-OhU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2gw-Mr-JPL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sha-od-eHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1486.1538461538462" y="51.895734597156398"/>
+        </scene>
+        <!--HipHopMusic-->
+        <scene sceneID="OtL-mz-olL">
+            <objects>
+                <viewController title="HipHopMusic" id="esf-gE-fYj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G6n-ph-6wR">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jew-Q3-I0F">
+                                <rect key="frame" x="16" y="31" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back"/>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="cxw-0T-oHm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lEE-hl-FBr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cYf-a7-m9W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nui-Pe-xqn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="695"/>
+        </scene>
+        <!--R&bMusic-->
+        <scene sceneID="Vmp-OL-b6h">
+            <objects>
+                <viewController title="R&amp;bMusic" id="ikv-zm-NBP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ysl-mY-AYR">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgn-dZ-TLC">
+                                <rect key="frame" x="16" y="29" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back"/>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="0nW-hd-bH6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cvQ-Jd-HkN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="flJ-Cf-1Pl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJb-Wg-mFx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1486" y="700"/>
+        </scene>
+        <!--IndieMusic-->
+        <scene sceneID="LY3-WI-zi5">
+            <objects>
+                <viewController title="IndieMusic" id="M1H-7w-U3A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q9j-80-cTE">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66t-eZ-1RA">
+                                <rect key="frame" x="16" y="20" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back"/>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="5Gi-K6-gfY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jWg-P8-RWR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iTc-ql-l8v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Stb-1E-NDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2182" y="700"/>
+        </scene>
+        <!--CountryMusic-->
+        <scene sceneID="3pc-Er-elH">
+            <objects>
+                <viewController title="CountryMusic" id="cc2-Vx-s2d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Q7-DE-zih">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="typ-vK-s33">
+                                <rect key="frame" x="18" y="20" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back"/>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="lVm-Pi-Tru"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X4V-Px-LqB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="obZ-76-gxk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rzn-Fx-0bf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="-604"/>
+        </scene>
+        <!--PopMusic-->
         <scene sceneID="gLY-RW-KbO">
             <objects>
-                <viewController id="u6X-u1-ek8" sceneMemberID="viewController">
+                <viewController title="PopMusic" id="u6X-u1-ek8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Mf-uF-DeL">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTe-rm-kRD">
+                                <rect key="frame" x="16" y="20" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="&lt;Back">
+                                    <color key="baseForegroundColor" systemColor="linkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DIQ-R3-IMU" kind="show" id="lVh-Z4-6Bt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bh7-ZB-L6V"/>
-                        <color key="backgroundColor" red="0.52156865600000002" green="0.39215683940000001" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.52156865600000002" green="0.39215683940000001" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="7fI-py-5B2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cA8-4u-ZjN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="719"/>
+            <point key="canvasLocation" x="1462" y="-604"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="lVh-Z4-6Bt"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="flip-camera-icon-png-24" width="196" height="131"/>
         <systemColor name="linkColor">
