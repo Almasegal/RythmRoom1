@@ -15,19 +15,7 @@ class IndieMusicViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var albums: <# Type #> = ["Lovers Rock", "Where'd All the Time Go?", "Tommy's Pool"]{
-
-    // shuffle in place
-        albums.shuffle();
-
-    // get a shuffled array back
-        let shuffled = self.albums.shuffled();
-}
-
-    if; let random = albums.randomElement()
-    {
-        print("Try: \(random).")
-    }
+   
         
     /*
     // MARK: - Navigation
