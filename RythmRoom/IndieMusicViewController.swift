@@ -16,7 +16,7 @@ class IndieMusicViewController: UIViewController {
     }
     
    
-        
+}
     /*
     // MARK: - Navigation
 
@@ -27,4 +27,4 @@ class IndieMusicViewController: UIViewController {
     }
     */
 
-}
+
