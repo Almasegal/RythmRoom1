@@ -1,13 +1,13 @@
 //
-//  IndieMusicViewController.swift
+//  EmotionCountryViewController.swift
 //  RythmRoom
 //
-//  Created by Alma Segal on 2022-08-18.
+//  Created by Alma Segal on 2022-08-19.
 //
 
 import UIKit
 
-class IndieMusicViewController: UIViewController {
+class EmotionCountryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +15,7 @@ class IndieMusicViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-   
-}
+
     /*
     // MARK: - Navigation
 
@@ -27,4 +26,4 @@ class IndieMusicViewController: UIViewController {
     }
     */
 
-
+}
